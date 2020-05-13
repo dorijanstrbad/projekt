@@ -1,0 +1,135 @@
+
+    ul.izbornik {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    ul.izbornik li {
+      float: left;
+      border-right:1px solid #bbb;
+    }
+    
+    ul.izbornik li:last-child {
+      border-right: none;
+    }
+    
+    ul.izbornik li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    ul.izbornik li a:hover:not(.active) {
+      background-color: #611;
+    }
+    
+    .active {
+      background-color: rgb(255,255,255);
+    }
+    div.informacije{
+        border-style: solid; 
+        background-color: lightgray;
+        width: 30%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+.naslov{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+
+}
+img.slika1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lyrike{
+    text-align: center;
+}
+.lyrike2{
+    text-align: left;
+}
+.lyrike3{
+    text-align: right;
+}
+body{
+    background-color: lightgray;
+}
+img.ikona{
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.obrazac{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.kontakt{
+    background-image: url("acdc1.jpg");
+    height: 100%;
+    width: 100%;
+}
+p{
+    color: white;
+    font-size: larger;
+}
+.albumcover
+img
+{
+    height: 600px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.albumcover:hover
+{  
+    height: 800px;
+    width: 600px;
+}
+img.koncert{
+    height: 300px;
+    width: 500px;
+}
+div.galerija {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+    height: 400px;
+}
+
+  
+  div.galerija:hover {
+    border: 1px solid #777;
+  }
+  
+  div.galerija img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.opis {
+    padding: 15px;
+    text-align: center;
+  }
+  ul.albumi li{
+      font-size: 25px;
+  }
+  div.popis{
+      font-size: 30px;
+      text-align: left;
+  }
